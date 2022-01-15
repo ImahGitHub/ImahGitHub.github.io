@@ -1,0 +1,334 @@
+html {
+    position: relative;
+}
+
+body {
+    margin-bottom: 100px;
+    margin-top: 20px;
+}
+
+.navbar .container-fluid{
+    background-color: #020c1b;
+}
+
+.jumbotron.header{
+    height: 100vh;
+    background-color: #020c1b;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 -100px;
+    color: #eaeaea;
+    font-family: 'courier';
+}
+
+.jumbotron h1 {
+    text-shadow: 1px 1px 10px rgba(0,0,0,0.5) ;
+}
+
+p {
+    color: #a8b2d1;
+}
+
+
+.wrapper {
+    display: inline-flex;
+}
+
+.wrapper .icon {
+    margin: 0;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+    color: #fff;
+    position: relative;
+    z-index: 2;
+    transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .icon span {
+    height: 60px;
+    width: 60px;
+    display: block;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper .icon span i {
+    font-size: 25px;
+    line-height: 60px;
+}
+
+.wrapper .icon .tooltip {
+    position: absolute;
+    top: -70px;
+    font-size: 20px;
+    padding: 10px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper .icon .tooltip::before {
+    position: absolute;
+    color: "";
+    height: 15px;
+    width: 15px;
+    bottom: -8px;
+    left: 20%;
+}
+
+hr {
+    width: 250px;
+    border-top: 3px solid #64ffda;
+}
+
+
+.about {
+    background-color: #020c1b;
+    color: #a8b2d1;
+    margin-top: -50px;
+}
+
+.jumbotron.about {
+    background-color: #233554;
+    background-size: 100vh;
+    border: 3px solid #64ffda;
+    margin-top: 10px;
+    padding-top: 30px;
+}
+
+section {
+    min-height: 600px;
+}
+
+.portfolio {
+    background-color: #020c1b;
+    color: white;
+}
+
+.mh-skills {
+    background-color: #020c1b;
+}
+
+.mh-skills .mh-professional-skill {
+    padding-right: 60px;
+    color: white;
+}
+
+.mh-skills .mh-professional-skill h3{
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 60px;
+    font-family: 'poppins', sans-serif;
+}
+
+
+.mh-professional-skills {
+    padding-left: 20%;
+    color: white;
+}
+
+.mh-professional-skills h3 {
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 60px;
+    font-family: 'poppins', sans-serif;
+    color: white;
+}
+
+.mh-professional-progress li {
+    display: inline-block;
+    margin: 0 auto;
+    float: none;
+    width: 48%;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.mh-progress {
+    margin-bottom: 10px;
+    font: 9001.14285/1 cinzerl, cursive;
+    color: white;
+}
+
+.mh-progress .progressbar-text {
+    color: inherit !important;
+    font-family: 'poppins', sans-serif;
+}
+
+.progress.progress-line {
+    height: 10px;
+    margin-right: 60px;
+
+}
+
+.progress.progress-line .progress-text {
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    width: 60px;
+    transform: translateY(-35%);
+    text-align: center;
+    font-family: 'popipns', sans-serif;
+}
+
+.mh-progress.mh-progress-circle {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+
+.mh-progress path:nth-child(1) {
+    stroke: rgba(0, 0, 0, 0.7);
+}
+
+.mh-progress path:nth-child(2) {
+    stroke: #0bceaf !important;
+}
+
+
+.candidatos {
+    position: relative;
+    margin-bottom: 15px;
+    font-family: 'poppins', sans-serif;
+}
+
+
+.candidatos .parcial {
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+}
+
+.candidatos .parcial .info {
+   position: relative;
+   font-family: 'poppins', sans-serif;
+}
+
+.candidatos .parcial .info .name{
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 15px;
+    font-weight: 600;
+    opacity: 0.9;
+    font-family: 'poppins', sans-serif;
+ }
+
+ .candidatos .parcial .info .percentage-num {
+     position: absolute;
+     top: 0;
+     right: 0;
+     font-size: 14px;
+     font-weight: normal;
+ }
+
+ .candidatos .parcial .progressBar {
+     position: relative;
+     width: 100%;
+     height: 7px;
+     margin: 30px 0 2px;
+     border-radius: 10px;
+     background: rgba(0,0,0,0.5);
+ }
+
+ .candidatos .parcial .percentagem {
+     position: absolute;
+     top: 0;
+     left: 0;
+     height: 7px;
+     border-top-left-radius: 10px;
+     border-bottom-left-radius: 10px;
+     border-bottom-right-radius: 10px;
+     border-bottom-right-radius: 10px;
+     background: #0bceaf;
+     transition: 3s all;
+     animation-name: animationProgress;
+     font-family: 'poppins', sans-serif;
+ }
+
+ .precentual {
+     animation-name: animationProgress;
+
+ }
+
+ @keyframes animatipnProgress {
+     from {
+         width: 0;
+     }
+ }
+
+
+.kontak {
+    background-color: #020c1b;
+}
+
+.kontak hr {
+    color: #0bceaf;
+    text-align: justify;
+}
+
+h3 {
+    color: white;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    bottom: 0;
+    background-color: #333;
+    padding-top: 30px;
+}
+
+footer p {
+    color: #aaa;
+    font-size: 0.9em;
+}
+
+.navbar {
+    margin-bottom: 15px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    font-style:color white;
+}
+
+@media screen and (max-width:768px) {
+      html {
+        font-size: 50%;
+      }
+
+      .jumbotron.header {
+          background-position: center;
+          font-size: inherit;
+      }
+       .about .discover {
+           margin-top: 50px;
+       }
+
+       .about .foto {
+           text-align: center;
+       }
+
+       .portfolio {
+           text-align: center;
+       }
+       
+       .mh-skill {
+            text-align: center;
+            margin-right: 10px;
+            display: inline;
+       }
+
+       .mh-professional-skills {
+           text-align: center;
+       }
+
+       .kontak {
+           align-items: center;
+       }
+}
