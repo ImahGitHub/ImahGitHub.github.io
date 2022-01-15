@@ -41,7 +41,6 @@ p {
     text-align: center;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
     cursor: pointer;
     color: #fff;
     position: relative;
@@ -301,6 +300,8 @@ footer p {
       html {
         font-size: 50%;
       }
+    
+    
 
       .jumbotron.header {
           background-position: center;
@@ -330,5 +331,8 @@ footer p {
 
        .kontak {
            align-items: center;
+       }
+       .kontak .alamat {
+           width: 80%;
        }
 }
